@@ -1,0 +1,63 @@
+
+:root{--ink:#58372d;--muted:#9c7c72;--pink:#fa858a;--line:#f4cfc0;--cream:#fff9f1;--paper:#fffefa}*{box-sizing:border-box}body{margin:0;background:linear-gradient(130deg,#fff0e8,#fffaf0 55%,#f5f9ee);color:var(--ink);font-family:"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif}main{max-width:480px;min-height:100vh;margin:auto;background:var(--cream);padding-bottom:100px;box-shadow:0 4px 38px #d3aa9c45}button,input,select{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #f08b93;outline-offset:2px}.hero{text-align:center;padding:26px 18px 0;background:radial-gradient(circle at 20% 23%,#ffdfd3 0,transparent 34%),radial-gradient(circle at 88% 70%,#e7f3d7 0,transparent 28%),#fff7ed;overflow:hidden;border-bottom:1px solid var(--line)}.eyebrow{font-size:13px;color:#be8176;letter-spacing:.04em}.hero h1{font-size:clamp(32px,9vw,44px);margin:7px 0 0;letter-spacing:.055em;color:#61372a}.hero p{font-size:13px;margin:4px 0 0;color:#996e62}.hero-characters{display:block;width:84%;max-width:365px;height:250px;object-fit:contain;object-position:bottom;margin:0 auto -4px;filter:drop-shadow(0 6px 2px #edc7b55c)}.page{padding:15px 14px}.hidden{display:none!important}.homegrid{display:flex;flex-direction:column;gap:10px}.homegrid button{display:flex;align-items:center;text-align:left;gap:14px;background:#fffdf9;border:1.5px solid #f6c2ad;border-radius:21px;min-height:99px;padding:7px 14px;box-shadow:0 3px 0 #f9e7df;color:var(--ink)}.homegrid button:active{transform:translateY(2px)}.homeart{width:87px;height:84px;object-fit:contain;flex-shrink:0}.hotcook-art{width:78px;height:76px;margin:4px}.home-label{display:flex;flex:1;flex-direction:column;gap:5px}.home-label strong{font-size:19px}.home-label small{font-size:12px;color:var(--muted)}.arrow{font-size:35px;color:#f18b82;font-weight:400}.favorite-art{font-size:70px;line-height:1;color:#f58b93;width:87px;text-align:center}.home-count{text-align:center;background:#fff1e9;border:1px solid #f7d4c3;border-radius:15px;padding:14px 5px;margin-top:19px;font-size:13px}.bottomnav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:min(100%,480px);height:74px;display:grid;grid-template-columns:repeat(5,1fr);background:#fffdfa;border-top:1px solid #efd4c9;z-index:5;box-shadow:0 -4px 20px #b9897930}.bottomnav button{border:0;background:none;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:29px;color:#816b60;gap:0}.bottomnav button span{font-size:10px}.bottomnav button.navactive{color:#f36d76}.panel{background:#fffdf9;border:1px solid #f4ded3;border-radius:20px;padding:15px;margin-bottom:12px}.panel h2{font-size:20px;margin:0 0 12px}.panel h2 small{font-size:12px;font-weight:400;color:#a67d73}.hint{font-size:12px;color:#927a71;line-height:1.7}.panel input,.panel select{width:100%;border:1px solid #ecd4c7;border-radius:12px;padding:12px;background:#fff}.filters{display:grid;grid-template-columns:1fr 1fr;gap:9px}.filters label{font-size:12px;color:#88685d}.filters label:first-child{grid-column:1/-1}.category-pills,.chips,.tray-chips{display:flex;flex-wrap:wrap;gap:7px;margin:10px 0}.category-pills button,.chips button,.tray-chips button{border:1px solid #eed6c7;border-radius:22px;background:#fff3e8;padding:8px 12px;color:#60473e;font-size:12px}.category-pills .chosen,.chips button.active{background:#f68e91;color:white;border-color:#f68e91}.foodgroup{margin:16px 0}.foodgroup h3{font-size:15px;margin:8px 0}.selected-tray{background:#fff1ec;border-radius:15px;padding:12px;margin:10px 0}.actions{display:flex;gap:7px;margin:10px 0}.primary,.secondary{border-radius:14px;border:1px solid #f1c4b3;padding:11px;background:#fff8f4;color:#805b51}.primary{background:#f98b8d;color:white;border-color:#f98b8d;font-weight:bold}.full{width:100%}.resulthead{display:flex;align-items:center;justify-content:space-between;margin:12px 0}.recipe{background:#fffefa;border:1px solid #f3e0d4;border-radius:19px;margin:10px 0;padding:12px;display:flex;gap:12px;box-shadow:0 2px 6px #caa79912}.recipe-art{width:82px;min-width:82px;height:83px;border-radius:13px;background:linear-gradient(145deg,#ffead8,#fff4e6);display:grid;place-items:center;font-size:37px}.recipe-body{min-width:0;flex:1}.recipe-top{display:flex;justify-content:space-between;align-items:flex-start;gap:5px}.recipe h3{font-size:15px;margin:2px 0 4px}.heart{border:0;background:none;color:#ee7886;font-size:26px;line-height:1}.tag{font-size:10px;color:#a4857c}.meta{font-size:11px;margin:7px 0}.missing,.ready{font-size:11px;line-height:1.5}.missing{color:#a36b51}.ready{color:#6b9a78}.recipe details{margin-top:9px;background:#fff6ed;border-radius:10px;padding:9px;font-size:12px;line-height:1.75}.recipe summary{color:#d66e71;font-weight:bold;cursor:pointer}.recipe li{margin:5px 0}.recipe ul,.recipe ol{padding-left:19px}.recipe a{color:#b35e66;overflow-wrap:anywhere}.title-icon{width:40px;vertical-align:middle}footer{padding:12px 22px;font-size:10px;text-align:center;color:#a48c81}.empty{padding:25px;text-align:center;color:#94786e}@media(min-width:800px){main{margin:20px auto;border-radius:25px;overflow:hidden;min-height:calc(100vh - 40px)}.bottomnav{border-radius:0 0 25px 25px}}@media(max-width:380px){.home-label strong{font-size:17px}.hero-characters{height:220px}.homeart{width:73px}.homegrid button{gap:8px}}
+
+/* Ver.5.5: use exact illustrated characters and menu icons from approved UI reference, without destructive background removal */
+.hero{background:#fff7ed}.hero-characters{width:100%;max-width:400px;height:auto;max-height:none;object-fit:contain;filter:none;margin:8px auto -3px;display:block}.homeart{width:88px;height:88px;object-fit:contain;border-radius:15px}.hotcook-art{width:88px;height:88px;margin:0}.homegrid button{min-height:104px}.favorite-art{display:none}
+
+/* v5.6: use complete, uncropped menu illustrations and a consistent cream backdrop */
+.hero{background:#fff7ed;padding-bottom:0}
+.hero-characters{width:100%;max-width:400px;margin:6px auto 0;display:block;filter:none}
+.homegrid button{background:#fffaf5;min-height:100px;gap:12px;padding:8px 12px;overflow:visible}
+.homeart,.hotcook-art{width:98px;height:80px;object-fit:contain;object-position:center;flex:0 0 98px;margin:0;border-radius:14px;background:#fff8f1;mix-blend-mode:multiply}
+.page{background:#fff9f1}
+@media(max-width:380px){.homeart,.hotcook-art{width:88px;flex-basis:88px;height:77px}.homegrid button{gap:9px}}
+
+/* v5.7: transparent menu icons blend into the actual card background */
+.homeart,.hotcook-art{background:transparent;mix-blend-mode:normal;border-radius:0}
+
+/* v5.8: match menu illustration backgrounds to the card itself */
+.homegrid button{background:#fffaf5!important}
+.homeart,.hotcook-art{background:transparent!important;mix-blend-mode:normal!important;box-shadow:none!important;border:0!important}
+
+/* v5.9: よく使う食材を先頭に、イラスト付きで表示 */
+.featured-foods h3{font-size:16px;margin:18px 0 11px;color:#6d4539}.featured-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}.food-tile{position:relative;display:flex;align-items:center;justify-content:center;flex-direction:column;min-height:102px;gap:5px;background:linear-gradient(155deg,#fff7ed,#fffdf8);border:1px solid #efd4c0;border-radius:17px;color:#65463b;padding:10px 3px;box-shadow:0 2px 3px #a8806020}.food-tile.active{border:2px solid #f18a8f;background:#fff0e9}.food-illustration{font-size:40px;line-height:1.2;filter:drop-shadow(0 2px 1px #a47b5c24)}.food-tile-name{font-size:12px;font-weight:700;line-height:1.4}.food-tick{position:absolute;top:5px;right:6px;background:#f47f8a;color:white;width:22px;height:22px;border-radius:50%;font-size:14px;display:grid;place-items:center}.more-foods{margin-top:18px;border:1px solid #f2d9ca;border-radius:14px;background:#fffbf7;padding:12px}.more-foods summary{cursor:pointer;font-size:14px;font-weight:700;color:#9c6558}.more-foods .foodgroup{margin:15px 0 6px}.more-foods .foodgroup h3{font-size:13px}@media(max-width:360px){.featured-grid{gap:6px}.food-tile{min-height:92px}.food-illustration{font-size:34px}}
+
+/* Ver 6.0: hand-drawn ingredient illustrations and category groups */
+.featured-group-title{font-size:14px;color:#8b6254;margin:18px 0 9px;padding:0 3px 6px;border-bottom:1px dashed #e9c8b8}
+.featured-grid{margin-bottom:5px}
+.food-illustration{height:56px;width:68px;display:flex;align-items:center;justify-content:center;font-size:38px;line-height:1;filter:none}
+.food-illustration img{display:block;width:68px;height:56px;object-fit:contain;mix-blend-mode:multiply}
+.food-tile{min-height:105px;background:#fffaf5}
+.food-tile.active{background:#fff0e9}
+@media(max-width:360px){.food-illustration{width:58px;height:50px}.food-illustration img{width:58px;height:50px}}
+
+/* v6.2 unified illustrated ingredient icons */
+.food-illustration img{mix-blend-mode:multiply;width:74px;height:66px;object-fit:contain;border-radius:9px}
+.food-illustration{width:76px;height:68px}
+.food-tile{min-height:120px}
+
+/* v6.3: transparent illustrations, no duplicate labels inside images */
+.food-illustration img{mix-blend-mode:normal!important;border-radius:0!important;object-fit:contain}
+.food-illustration{background:transparent!important}
+
+/* 食材ページ：調理方法の複数選択 */
+.cooking-picker{margin:20px 0 15px;padding:14px 10px;border:1px solid #f2d7c7;border-radius:17px;background:#fff8f1}.cooking-picker h3{margin:0;font-size:16px;color:#6e453b}.cooking-picker h3 small{font-size:11px;color:#bc8277;font-weight:normal}.cooking-picker .hint{margin:6px 0 12px}.cooking-choices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.cooking-choice{position:relative;min-height:114px;border:1.5px solid #f0d0bd;border-radius:16px;background:#fffefa;color:#6a4438;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:4px;padding:8px 3px}.cooking-choice.active{border-color:#f47d86;background:#ffe9e6;box-shadow:0 0 0 1px #f47d86}.cooking-choice strong{font-size:12px}.cooking-choice small{font-size:10px;color:#98766b;text-align:center}.cooking-symbol{font-size:35px;height:43px;display:grid;place-items:center}.cooking-symbol img{width:50px;height:46px;object-fit:contain}.cooking-check{position:absolute;right:5px;top:5px;border-radius:50%;background:#f47d86;color:white;width:19px;height:19px;font-size:13px;display:grid;place-items:center}#cookingCount{margin-bottom:0}.cooking-choice:focus-visible{outline:3px solid #f47d86;outline-offset:2px}
+
+/* Ver 6.8: illustrated navigation and cooking method icons */
+.bottomnav button{font-size:inherit;gap:2px}.nav-art{width:34px;height:34px;object-fit:contain;display:block}.bottomnav button[data-page="hotcook"] .nav-art{width:39px;height:35px}.bottomnav button span{font-size:10px}.cooking-symbol{height:55px}.cooking-symbol img{width:65px;height:55px;object-fit:contain}.cooking-choice{min-height:110px}.cooking-choice small{display:none}
+
+.recipe-art img{width:100%;height:100%;object-fit:cover;border-radius:inherit;display:block}
+
+/* Ver.7.5: 料理の全体が見える横長サムネイル */
+.recipe-art{width:128px;min-width:128px;height:88px;overflow:hidden;background:#fff5eb;border:1px solid #f2ddce}.recipe-art img{width:100%;height:100%;object-fit:contain;object-position:center;border-radius:10px;display:block}
+@media(max-width:370px){.recipe{gap:8px;padding:9px}.recipe-art{width:110px;min-width:110px;height:82px}}
+
+/* v7.6: warm cookbook photo tiles, matched frame and image ratio */
+.recipe{align-items:flex-start;gap:11px;padding:10px;border-color:#efd6c1;background:#fffaf3}
+.recipe-art{width:112px;min-width:112px;height:112px;aspect-ratio:1/1;border-radius:12px;overflow:hidden;border:1px solid #eecdb2;background:#f9eee2;display:grid;place-items:center}
+.recipe-art img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;border-radius:0}
+@media(max-width:380px){.recipe-art{width:96px;min-width:96px;height:96px}}
+
+/* v7.7: uniform square food thumbnails */
+.recipe-art{aspect-ratio:1/1;height:auto;overflow:hidden;background:#f7ede2;border-radius:14px 14px 0 0;}
+.recipe-art img{width:100%;height:100%;object-fit:cover;display:block;border-radius:0;}
